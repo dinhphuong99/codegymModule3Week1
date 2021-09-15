@@ -19,7 +19,7 @@ BEGIN
 END;
 
 DELIMITER $$
-#DROP PROCEDURE IF EXISTS `pr_deprosit`;
+#DROP PROCEDURE IF EXISTS `pr_withdraws`;
 CREATE PROCEDURE pr_withdraws(IN id INT, IN money DOUBLE)
 BEGIN 
 	DECLARE balance1 DOUBLE ;
